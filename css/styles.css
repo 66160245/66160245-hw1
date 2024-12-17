@@ -6,7 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     line-height: 1.5;
+=======
+    line-height: 1.5ss; 
+>>>>>>> feature/contact
 }
 
 header {
