@@ -7,29 +7,44 @@
     <title>หนัาติดต่อ</title>
     <link rel="stylesheet" href="css/styles-contact.css">
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="index.html" class="active">หน้าแรก</a></li>
-            <li><a href="details.html" class="active">รายละเอียดสถาที่ท่องเที่ยว</a></li>
-            <li><a href="contact.html" class="active">ติดต่อ</a></li>
-        </ul>
-    </nav>
-</header>
+<nav>
+    <ul>
+        <li><a href="index.html" class="active">หน้าแรก</a></li>
+        <li><a href="details.html" class="active">รายละเอียดสถาที่ท่องเที่ยว</a></li>
+        <li><a href="contact.html" class="active">ติดต่อ</a></li>
+    </ul>
+</nav>
 <body>
-    
+    <header>
+        
+    </header>
     <main role="main">
         <section class="center-head">
-            <h1>ติดต่อเรา</h1>
-            <nav class="contact">
+            <h1>ติดต่อ</h1>
+            <nav>
                 <ul>
-                    <li>เบอร์โทร : 066160245</li>
-                    <li>Email : 66160245@go.buu.ac.th</li>
-                    <li>ที่อยู่ : 100/10/15 หมู่พระเจ้าตาก</li>
+                    <li><a href="index.html" class="active">หน้าแรก</a></li>
+                    <li><a href="details.html">รายละเอียดสถาที่ท่องเที่ยว</a></li>
+                    <li><a href="contact.html">ติดต่อ</a></li>
                 </ul>
             </nav>
         </section>
     </main>
+    <main role="second">
+        <section class="center-head">
+            <h1>ส่งข้อความถึงเรา</h1>
+        </section>
+    </main>
+    <section class="center-info">
+        <form action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ">
+            <div class="form-group">
+                <label for="fullname">ชื่อ-นามสกุล</label>
+                <input type="text" id="fullname" name="fullname" required aria-required="true" minlength="2"
+                    maxlength="100" aria-describedby="fullname-help">
+                <small id="fullname-help">กรุณากรอกชื่อและนามสกุลจริง</small>
+            </div>
+        </form>
+    </section>
 </body>
 
 </html>
